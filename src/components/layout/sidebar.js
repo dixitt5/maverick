@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Tooltip } from "@chakra-ui/react";
 import { AiOutlineHome } from "react-icons/ai";
+import {TbTournament} from "react-icons/tb"
 import {
   MdSpaceDashboard,
   MdOutlineToken,
@@ -46,10 +47,16 @@ const navData = [
     icon: <MdEventAvailable size={25} />,
   },
   {
-    label: "EXPLORE EVENT",
+    label: "Explore",
     path: "/explore",
     icon: <MdOutlineExplore size={25} />,
   },
+  {
+    label: "Tournament Generator",
+    path: "/tournament",
+    icon: <TbTournament size={25} />,
+  },
+
 ];
 
 const Sidebar = () => {

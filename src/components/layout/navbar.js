@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full mx-auto py-5 px-2 lg:px-0">
-        <div className="max-w-[1080px] container flex flex-wrap justify-end space-x-5 items-center mx-auto">
+        <div className="max-w-[1080px] container flex flex-wrap justify-end content-end space-x-5 items-center mx-auto">
           <ConnectKitButton />
           {theme === "light" ? (
             <BiMoon

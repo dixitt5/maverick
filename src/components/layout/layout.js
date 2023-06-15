@@ -10,7 +10,7 @@ const Layout = ({ children, headTitle, headContent, isFooter=true }) => {
       <CustomHead title={headTitle} content={headContent} />
       <main className="mx-auto max-w-full min-h-[calc(100vh-56px)]">
         <Sidebar />
-        <div className="w-full min-h-[calc(100vh-56px)] lg:pl-[120px] lg:pr-[60px]">
+        <div className="w-full min-h-[calc(100vh-56px)] lg:pl-[120px] lg:pr-[40px]">
           <Navbar />
           <div className="pt-[20px]">{children}</div>
         </div>
