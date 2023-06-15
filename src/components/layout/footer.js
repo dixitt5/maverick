@@ -15,7 +15,7 @@ const Footer = ({ fontColor }) => {
               <a href="">{company.name}</a>
             </span>
             <a
-              href="https://github.com/senali_d/DevJam"
+              href=""
               target="_blank"
               className={`${
                 fontColor ? fontColor : "text-[#5b7a8a] hover:text-[#a1a1a1]"
