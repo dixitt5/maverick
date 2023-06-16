@@ -3,6 +3,7 @@ import { Heading, Input } from "@chakra-ui/react";
 import Link from "next/link";
 import { Select } from "@chakra-ui/react";
 import Layout from "@/components/layout/layout";
+import Team from "@/components/Team";
 
 export default function Tournament() {
   const [tournamentName, setTournamentName] = useState("");
@@ -63,7 +64,7 @@ export default function Tournament() {
           </label>
           <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis bg-[#303540] hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-black px-6 text-ellipsis outline-amber-600 text-white font-base font-normal"
+              className="w-full h-full rounded-lg bg-black px-6 text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               variant="filled"
               placeholder="Tournament Name"
               id="tournamentName"
@@ -125,7 +126,7 @@ export default function Tournament() {
           </label>
           <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis bg-[#303540] hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-black font-base font-normal"
+              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               type="number"
               id="totalRounds"
               variant="filled"
@@ -169,7 +170,7 @@ export default function Tournament() {
           </label>
           <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis bg-[#303540] hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-white font-base font-normal"
+              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               type="text"
               variant="filled"
               placeholder="Winning Amount"
@@ -190,7 +191,7 @@ export default function Tournament() {
           </label>
           <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis bg-[#303540] hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-white font-base font-normal"
+              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               type="text"
               id="participants"
               value={participantCount}
@@ -209,9 +210,9 @@ export default function Tournament() {
           >
             Game Name:
           </label>
-          <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis text-black hover:border hover:border-amber-600">
+          <div className="w-full h-[40px] rounded-lg bg-[#303540] overflow-hidden text-ellipsis text-black hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-white font-base font-normal"
+              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               type="text"
               id="gameName"
               placeholder="Game Name"
@@ -232,7 +233,7 @@ export default function Tournament() {
           </label>
           <div className="w-full h-[40px] rounded-lg overflow-hidden text-ellipsis bg-[#303540] hover:border hover:border-amber-600">
             <Input
-              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-white font-base font-normal"
+              className="w-full h-full rounded-lg bg-inherit px-6 overflow-hidden text-ellipsis outline-amber-600 text-gray-500 font-base font-normal"
               type="number"
               id="nosOfTeam"
               value={nosOfTeam}

@@ -9,12 +9,12 @@ function BackgroundVideo({ video }) {
         autoPlay
         loop
         muted
-        className="hidden md:block absolute z-[-1] w-auto min-w-full min-h-full bottom-0 max-w-full  overflow-hidden"
+        className="hidden md:block absolute z-[-1] w-auto h-auto min-w-full min-h-full bottom-0 max-w-full  overflow-hidden"
       >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="hidden bg-[#030413] opacity-20 md:block absolute z-[-1] w-auto min-w-full min-h-full bottom-0 max-w-full  overflow-hidden"></div>
+      <div className="hidden bg-[#030413] opacity-20 md:block absolute z-[-1] w-auto min-w-full min-h-full bottom-0 max-w-full overflow-auto"></div>
     </>
   );
 }
@@ -22,9 +22,9 @@ function BackgroundVideo({ video }) {
 export default function Home() {
   return (
     <>
-      <main className="">
+      <main className="m-0 p-0 overflow-hidden">
         <BackgroundVideo video="/banner.mp4" />
-        <div className="px-4 lg:px-0 mx-auto max-w-[1080px] flex justify-center flex-col min-h-[calc(100vh-56px)]">
+        <div className="px-4 lg:px-0 mx-auto max-w-[1080px] flex justify-center flex-col min-h-[calc(100vh-76px)]">
           <div className="flex justify-center flex-row">
             <div className="flex flex-col justify-between text-center h-[calc(100vh-56px)] py-32">
               <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E4E4ED] ">

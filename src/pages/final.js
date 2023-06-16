@@ -21,11 +21,11 @@ const WinnerPage = () => {
       >
         Congratulations Rohit, You're the Winner!
       </Heading>
-      <div className="mt-10 content-center flex items-center align-middle">
+      <div className="mt-10 content-center flex flex-row justify-center">
         <Image
           src="/giphy.gif"
-          width={300}
-          height={300}
+          width={350}
+          height={350}
           alt="congratulating"
           
         />
