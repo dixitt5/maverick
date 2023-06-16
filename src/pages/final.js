@@ -19,7 +19,7 @@ const WinnerPage = () => {
         size="2xl"
         className="text-black dark:text-white mt-10 text-center"
       >
-        Congratulations Rohit, You're the Winner!
+        Congratulations Rohit, You&apos;re the Winner!
       </Heading>
       <div className="mt-10 content-center flex flex-row justify-center">
         <Image

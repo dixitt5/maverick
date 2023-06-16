@@ -59,12 +59,14 @@ const cardData = [
     img: "/thumb.webp",
     date: "2023-01-03",
     description: "Fortnite Highlights hosted by Daniel Wyatt!",
+    id: "0"
   },
   {
     title: "Gamers Talkshow",
     img: "/images.jpeg",
     date: "2023-02-01",
     description: "Gamers Talkshow with Bruce Oxenford!",
+    id: "1"
   },
 ];
 
@@ -110,6 +112,7 @@ const Explore = () => {
               onOpen();
               setSelectedEvent(card);
             }}
+            key={card.id}
           />
         ))}
       </div>

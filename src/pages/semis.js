@@ -229,7 +229,7 @@ const final = {
 //   }
 // }
 const Teams = [
-  <Bracket game={game1} />,
+  <Bracket key={"0"} game={game1} />,
 ];
 const Semis = () => {
   return (
