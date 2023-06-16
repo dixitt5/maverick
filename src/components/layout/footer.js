@@ -8,7 +8,7 @@ const Footer = ({ fontColor }) => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-row grid-flow-row mt-4 space-x-6 sm:justify-center p-0 items-center content-center sm:mt-0">
             {/* TODO: Add the logo here. */}
-            <Image src="/maverick.png" width={200} height={200} alt="logo" />
+            <Image src="/maverick.png" width={150} height={150} alt="logo" />
             <span
               className={`text-md ${
                 fontColor ? fontColor : "text-[#5b7a8a] hover:text-[#a1a1a1]"

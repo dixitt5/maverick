@@ -21,12 +21,12 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full mx-auto py-5 px-2 lg:px-0">
-        <div className="max-w-auto container flex flex-row justify-between items-center content-center space-x-5 gap-4 mr-auto">
+        <div className="max-w-auto container flex flex-row justify-between items-center content-center space-x-5 mr-auto">
           <div className="">
             <Image src="/maverick.png" width={200} height={200} alt="logo" />
           </div>
 
-          <div className="flex flex-row justify-end items-center content-center gap-4 mr-20">
+          <div className="flex flex-row justify-end items-center content-end gap-4 mr-20 xl:flex-row">
             <ConnectKitButton />
             {theme === "light" ? (
               <BiMoon

@@ -1,5 +1,5 @@
 const company = {
-  name: "ZestStream",
+  name: "Maverick",
 };
 
 export { company };
