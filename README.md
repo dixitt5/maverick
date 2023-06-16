@@ -3,8 +3,7 @@
   <a href="" rel="noopener">
 <img src="https://uploads-ssl.webflow.com/6458f7b5632c534c43d7bf2f/645b6ad92c2a7120c874ff53_FIREBOND2x.png"></a>
   
-                      ZestStream :  A Web3 Game streaming and Tournament Organisation Platform . 
-
+                      Maverick :  A Web3 Game Streaming and Community Tournament Platform
 </p>
   
 ## 📝 Table of Content
@@ -24,7 +23,7 @@
  
 
 ## 💡 Idea / Solution <a name = "idea"></a>
-Zeststream is a blockchain-driven initiative that seeks to tackle the obstacles faced by the GameFi sector by establishing a live streaming platform for gaming, facilitating tournament organization, and establishing an inventive and enduring economy for players
+Maverick is a blockchain-driven initiative that seeks to tackle the obstacles faced by the GameFi sector by establishing a live streaming platform for gaming, facilitating tournament organization, and establishing an inventive and enduring economy for players
 
 The next evolutionary step is towards Gamefi streaming platform. Create a sustainable ecosystem running on blockchain where game publishers, streamers and the gamer community all benefit from the contribution.
 
@@ -33,7 +32,7 @@ The expansion of the gaming community has exacerbated this issue. Due to the abs
 
 ## 🚀 Vision <a name = "vision"></a>
 
-At Zeststream, our vision is to revolutionize the gaming industry by harnessing the power of blockchain technology and creating an immersive and inclusive ecosystem for gamers worldwide. We aim to overcome the challenges faced by the GameFi sector by providing a cutting-edge live streaming platform, streamlining tournament organization, and fostering a dynamic and sustainable economy for players.
+At Maverick, our vision is to revolutionize the gaming industry by harnessing the power of blockchain technology and creating an immersive and inclusive ecosystem for gamers worldwide. We aim to overcome the challenges faced by the GameFi sector by providing a cutting-edge live streaming platform, streamlining tournament organization, and fostering a dynamic and sustainable economy for players.
 
 Our vision is to empower gamers by offering a seamless and interactive streaming experience, where they can share their gameplay, engage with a global community, and showcase their skills. By leveraging blockchain technology, we ensure transparency, security, and ownership of digital assets, creating a trustless environment for all participants.
 
