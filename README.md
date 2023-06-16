@@ -13,6 +13,9 @@
 - [Idea / Solution](#idea)
 - [Vision](#vision)
 
+## 🚀 Vision <a name = "vision"></a>
+
+Maverick's vision is to create an immersive, impartial and inclusive ecosystem for web3 gamers worldwide.
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
@@ -30,9 +33,7 @@ The growth of the gaming community has heightened the need for solutions to thes
 Maverick is a web3 Game Streaming and Community Tournament Platform that fosters a dynamic and sustainable economy for games and players. An innovative blockchain initiative that addresses the challenges faced by the GameFi sector by introducing a game live streaming platform with gated experiences, and seamless community tournament organization.
 
 
-## 🚀 Vision <a name = "vision"></a>
 
-Maverick's vision is to create an immersive, impartial and inclusive ecosystem for web3 gamers worldwide.
 
 
 
